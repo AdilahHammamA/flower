@@ -57,7 +57,7 @@
   window.addEventListener('touchstart', burst, { passive: true });
 
   // auto jalan
-  startAutoHearts(700);
+  startAutoHearts(400);
 
   window.__hearts = { spawnHeart, startAutoHearts, stopAutoHearts };
 })();
@@ -67,3 +67,4 @@ onload = () =>{
         document.body.classList.remove("container");
 
 };
+
